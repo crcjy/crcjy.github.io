@@ -1,0 +1,7 @@
+@article{zhao2025data,
+  title={Data-driven security control for unknown nonlinear MASs with hybrid faults: A hierarchical control approach},
+  author={Zhao, Yuyang and Gong, Dawei and Chen, Jiaoyuan and Song, Shijie and Zhu, Minglei},
+  journal={ISA Transactions},
+  year={2025},
+  publisher={Elsevier}
+}

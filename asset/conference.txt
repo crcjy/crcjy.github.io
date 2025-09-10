@@ -1,0 +1,8 @@
+@inproceedings{shen2023general,
+  title={General Research and Design of Snake Robot for Fault Detection in Confined Space},
+  author={Shen, Shijun and Chen, Siyu and Chen, Jiaoyuan and Jiang, Jinmao and Liao, Sunbo},
+  booktitle={2023 IEEE 2nd Industrial Electronics Society Annual On-Line Conference (ONCON)},
+  pages={1--6},
+  year={2023},
+  organization={IEEE}
+}
