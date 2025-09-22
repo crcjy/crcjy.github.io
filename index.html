@@ -47,6 +47,19 @@
       padding-right: 20px;
     }
     
+    /* 隐藏访客统计插件 */
+    #mapmyvisitors,
+    [id*="mapmyvisitors"],
+    [class*="mapmyvisitors"],
+    iframe[src*="mapmyvisitors"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      height: 0 !important;
+      width: 0 !important;
+      overflow: hidden !important;
+    }
+    
     /* 响应式优化 */
     @media (max-width: 768px) {
       .wrapper {
@@ -372,7 +385,9 @@
 
       <br>
       <!-- ip统计 -->
-      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=v-gm-_wkYQ6Ut6VoA8vcYMcCRbYbIyutxBkMQB6Oz0E&cl=ffffff&w=a" style="display: none;"></script>
+      <div style="display: none;">
+        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=v-gm-_wkYQ6Ut6VoA8vcYMcCRbYbIyutxBkMQB6Oz0E&cl=ffffff&w=a"></script>
+      </div>
 
       <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
     </section>
