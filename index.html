@@ -47,19 +47,6 @@
       padding-right: 20px;
     }
     
-    /* 隐藏访客统计插件 */
-    #mapmyvisitors,
-    [id*="mapmyvisitors"],
-    [class*="mapmyvisitors"],
-    iframe[src*="mapmyvisitors"] {
-      display: none !important;
-      visibility: hidden !important;
-      opacity: 0 !important;
-      height: 0 !important;
-      width: 0 !important;
-      overflow: hidden !important;
-    }
-    
     /* 响应式优化 */
     @media (max-width: 768px) {
       .wrapper {
@@ -83,7 +70,7 @@
       <position style="font-size:1.10rem;">Ph.D. Student</position>
       <br>
       
-      <autocolor>School of Mechanical and Electrical Engineering, University of Electronic Science and technology</autocolor>
+      <a href=" " rel="noopener"><autocolor>School of Mechanical and Electrical Engineering, University of Electronic Science and technology</autocolor></a>
       <br>
       
       <email>chen.jiaoyuan@std.uestc.edu.cn</email>
@@ -106,7 +93,7 @@
         I am a Ph.D. student in Mechatronic Engineering at the University of Electronic Science and Technology of China (UESTC).
       </p>
       <p style="line-height: 1.6; margin-bottom: 20px;">
-        My research began with a focus on <strong>control theory</strong> (data-driven control, model-free adaptive control, adaptive dynamic programming).
+        My research began with a focus on <strong>control theory</strong> (data-driven control, model-free adaptive control, adaptive dynamic programming, model predictive control).
         Over time, I developed a strong interest in <strong>reinforcement learning</strong> (reinforcement learning, inverse reinforcement learning). 
         I am currently working on these two areas, committed to applying these theories to practical scenarios such as AGVs and power systems.
       </p>
@@ -385,9 +372,7 @@
 
       <br>
       <!-- ip统计 -->
-      <div style="display: none;">
-        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=v-gm-_wkYQ6Ut6VoA8vcYMcCRbYbIyutxBkMQB6Oz0E&cl=ffffff&w=a"></script>
-      </div>
+      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=v-gm-_wkYQ6Ut6VoA8vcYMcCRbYbIyutxBkMQB6Oz0E&cl=ffffff&w=a" style="display: none;"></script>
 
       <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
     </section>
