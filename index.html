@@ -58,9 +58,18 @@
       }
     }
 
-    #mapmyvisitors {
-    display: none !important;
-    visibility: hidden;
+      iframe[src*="mapmyvisitors"], 
+    #mapmyvisitors,
+    [id*="mapmyvisitors"],
+    [src*="mapmyvisitors.com"],
+    .mapmyvisitors,
+    div[style*="mapmyvisitors"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      height: 0 !important;
+      width: 0 !important;
+      pointer-events: none !important;
     }
   </style>
 </head>
@@ -376,8 +385,8 @@
       <h2 id="beyond-academics" style="margin: 30px 0px 20px 0px;">🌟 Beyond Academics</h2>
 
       <ul style="margin-bottom: 30px;">
-        <li style="margin-bottom: 12px;"><strong>Sports & Music:</strong> Piano (Level 10, highest amateur certification in China), Table Tennis, Basketball, Hiking</li>
-        <li style="margin-bottom: 12px;"><strong>Creative Skills:</strong> Photography, Video editing, and Social media content creation</li>
+        <li style="margin-bottom: 12px;"><strong>Sports & Music:</strong> Piano (Level 10, highest amateur certification in China), Table Tennis, Basketball, Hiking.</li>
+        <li style="margin-bottom: 12px;"><strong>Creative Skills:</strong> Photography, Video editing, and Social media content creation.</li>
       </ul>
 
       <br>
