@@ -43,6 +43,9 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li .author { margin: 0 0 0.15em 0; line-height: 1.35; }
 .publications ol.bibliography li .periodical { margin: 0 0 0.2em 0; line-height: 1.35; }
 .publications ol.bibliography li .links { margin: 0; line-height: 1.35; }
+.publications .pub-periodical-row { display: flex; align-items: center; gap: 0.75em; flex-wrap: wrap; }
+.publications .pub-periodical-row .periodical { margin: 0; }
+.publications .pub-periodical-row .links { margin: 0; }
 .publications ol.bibliography li .pub-row { margin-bottom: 0.5rem; }
 .publications ol.bibliography li .col-sm-9 { padding-top: 0; padding-bottom: 0; }
 
