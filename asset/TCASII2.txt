@@ -1,0 +1,10 @@
+@ARTICLE{11299053,
+  author={Zhao, Yuyang and Chen, Jiaoyuan and Song, Shijie and Zhu, Minglei and Gong, Dawei},
+  journal={IEEE Transactions on Circuits and Systems II: Express Briefs}, 
+  title={Finite-time Data-Driven Load Frequency Control For Multi-Area Power Systems}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Power system stability;Mathematical models;Cost function;Frequency control;Data models;Convergence;Generators;Symbols;Power system dynamics;Load modeling;Data-Driven Control;Multi-Power Systems;Finite-time Control;Load Frequency Control},
+  doi={10.1109/TCSII.2025.3643421}}

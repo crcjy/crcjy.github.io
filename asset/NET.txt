@@ -1,0 +1,8 @@
+@article{zhu2025structured,
+  title={Structured light-based 3D reconstruction in the radiation environment based on multi-frame iterative filtering and image feature-based point cloud registration},
+  author={Zhu, Minglei and Gong, Dawei and Zhao, Yuyang and Chen, Jiaoyuan and Song, Shijie},
+  journal={Nuclear Engineering and Technology},
+  pages={103870},
+  year={2025},
+  publisher={Elsevier}
+}

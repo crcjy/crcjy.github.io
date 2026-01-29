@@ -1,0 +1,8 @@
+@article{zhao2025data,
+  title={Data-Driven Output Containment Fault-Tolerant Control of Unknown Multi-Agent Systems with Actuator Faults},
+  author={Zhao, Yuyang and Gong, Dawei and Chen, Jiaoyuan and Song, Shijie and Zhu, Minglei},
+  journal={Journal of the Franklin Institute},
+  pages={108359},
+  year={2025},
+  publisher={Elsevier}
+}

@@ -1,7 +1,0 @@
-@article{chen2025improved,
-  title={Improved Model-Free Adaptive Load Frequency Control for Multi-Area Power Systems},
-  author={Chen, Jiaoyuan and Gong, Dawei and Zhao, Yuyang and Song, Shijie and Zhu, Minglei},
-  journal={IEEE Transactions on Circuits and Systems II: Express Briefs},
-  year={2025},
-  publisher={IEEE}
-}
